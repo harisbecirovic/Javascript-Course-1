@@ -317,7 +317,7 @@
 // ----------------------------------------------//
 
 
-// -----------------4.6-------------------------//
+//-------------------4.6-------------------------//
 
 // let n = parseInt(prompt("unesite a"));
 
@@ -436,40 +436,170 @@
 
 //----------------------------------------4.35-------------------------------------------------------//
 
-let n = parseInt(prompt("Unesite neparan broj:"))
+// let n = parseInt(prompt("Unesite neparan broj:"))
  
-let rowOutput = "+";
+// let rowOutput = "+";
  
-for(let i = 0; i < n*2-1; i++){
-    if(i===n/2 && j===n/2){
-        rowOutput +="+"
-    }
-    rowOutput += "-"
-}
+// for(let i = 0; i < n*2-1; i++){
+//     if(i===n/2 && j===n/2){
+//         rowOutput +="+"
+//     }
+//     rowOutput += "-"
+// }
  
-rowOutput += "+"
+// rowOutput += "+"
 
-console.log(rowOutput);
-for(let j = 1; j < n-2; j++){
-    rowOutput = ""
-    for(let i = 1; i <= n; i++){
-        if(i === 1 || i === n){
-            rowOutput += "|"
-        }
-        else{
-            rowOutput += "   " 
-        }
+// console.log(rowOutput);
+// for(let j = 1; j < n-2; j++){
+//     rowOutput = ""
+//     for(let i = 1; i <= n; i++){
+//         if(i === 1 || i === n){
+//             rowOutput += "|"
+//         }
+//         else{
+//             rowOutput += "   " 
+//         }
+//     }
+//     console.log("");
+//     console.log(rowOutput);
+// }
+ 
+ 
+// rowOutput = "+";
+ 
+// for(let i = 0; i < n*2-1; i++){
+//     rowOutput += "-"
+// }
+ 
+// rowOutput += "+"
+// console.log(rowOutput);
+
+//------------------------------------------------NEDOVRSEN-------------------------------------------//
+
+
+//----------------------------------------------5.1---------------------------------------------------//
+// let i = 0;
+
+// while(i<=5){
+//     console.log('cao');
+//     i++
+// }
+
+//---------------------------------------------5.2----------------------------------------------------//
+
+//a))
+
+// let i = 0;
+// do{
+//     i++
+//     console.log(i);
+// }
+// while(i<=9){
+    
+// }
+
+// b)
+// let i =0;
+
+// do{
+//     i+=2
+//     console.log(i);
+// }
+
+// while(i<=8){
+    
+// }
+
+// c)
+
+// let i = 0;
+
+//     do{
+//         console.log(i);
+//         i+=2
+//         i++
+//     }
+
+// while(i<=10 & i>0){
+    
+    
+// }
+
+//----------------------------------------6.3----------------------------//
+
+// let i ;
+
+// do {
+//     i = parseInt(prompt("Unesite broj:"))
+// }
+
+// while(i*i >=100)
+
+//-------------------------------------6.4---------------------------------//
+
+
+// let broj = parseInt(prompt("Unesite broj:"))
+// let stepen = 2
+
+// do{
+//     stepen=2*stepen
+//     console.log(stepen);
+// }
+// while(stepen<=broj)
+
+//------------------------------------------------6.8----------------------------///
+
+
+// let a = parseInt(prompt("Unesite broj:"))
+// let b = parseInt(prompt("Unesite broj:"))
+
+
+// do{
+    
+// }
+// while()
+
+//nedovrsen//
+
+//-------------------------------------6.10------------------------------------------------------------------//
+
+
+
+
+
+//=========================================SKOKOVI=========================================//
+
+//--------------------7.2--------------------//
+
+// let i;
+
+
+// do{
+//     console.log(i*i);
+//     if(i<0) break 
+//     i = parseInt(prompt("Unesite broj:"))
+// }
+// while(true)
+
+//---------------------------------------------7.3------------------------//
+
+
+// let stop = 0;
+// let output ="";
+
+// for(i=0; i<=100; i++){
+//     let i = parseInt(prompt("Unesite broj:"));
+//     if(i=== stop) break;
+//     output += `${i}`
+    
+// }
+// console.log(output);
+
+//---------------------------------------7.4------------------------------------//
+
+for(let i=1; i<=500; i++){
+    if(i%3===0 && i%4===0 && i%5===0 && i%7===0) {
+        console.log(i);
+        break;
     }
-    console.log("");
-    console.log(rowOutput);
 }
- 
- 
-rowOutput = "+";
- 
-for(let i = 0; i < n*2-1; i++){
-    rowOutput += "-"
-}
- 
-rowOutput += "+"
-console.log(rowOutput);
