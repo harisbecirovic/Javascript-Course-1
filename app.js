@@ -597,9 +597,38 @@
 
 //---------------------------------------7.4------------------------------------//
 
-for(let i=1; i<=500; i++){
-    if(i%3===0 && i%4===0 && i%5===0 && i%7===0) {
-        console.log(i);
-        break;
-    }
+// for(let i=1; i<=500; i++){
+//     if(i%3===0 && i%4===0 && i%5===0 && i%7===0) {
+//         console.log(i);
+//         break;
+//     }
+// }
+//----------------------------CONTINUE 7.2---------------------------//
+//------------7.11------//
+
+// for(let i=1; i<=20; i++){
+//     if(i%3===0) continue;
+//     console.log(i);
+// }
+
+//----------------------------SWITCH-CASE---------------------------//
+
+let n = prompt("Unesite broj:");
+
+switch(n){
+    case 'a':
+        
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+        console.log( `je samoglasnik`);
+        
+    break;
+    default:
+        console.log(`je samoglasnik`);
+    
+    
 }
+
+
